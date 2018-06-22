@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 ./gradlew clean assemblePlugin
 adb push app/build/outputs/apk/app-beijing-release-unsigned.apk /sdcard/Test.apk
 adb shell am force-stop com.didi.virtualapk
